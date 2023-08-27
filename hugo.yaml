@@ -1,0 +1,20 @@
+baseURL: "http://sa1l.xyz/blog"
+title: "Sa1L"
+languageCode: "cn-zh"
+theme: "paper-mod"
+
+params:
+  footerMessage: "S❤N"
+  defaultTheme: auto
+  profileMode:
+    enabled: true
+    title: "Sa1L" # optional default will be site title
+    subtitle: "This is subtitle"
+    buttons:
+      - name: Archive
+        url: "/archive"
+      - name: Github
+        url: "https://github.com/"
+  socialIcons: # optional
+    - name: "github"
+      url: "https://github.com/sa1L-A"
