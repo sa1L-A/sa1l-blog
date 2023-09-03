@@ -1,2 +1,5 @@
 ##ignore lockfile 
 *.lock
+
+##outputs
+public
