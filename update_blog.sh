@@ -1,3 +1,6 @@
+## env path start
+PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/bin:/usr/local/go/bin"
+## script start
 echo "1.start to pull blog."
 git pull 
 echo "2.start to pull theme"
