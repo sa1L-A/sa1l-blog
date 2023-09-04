@@ -1,11 +1,9 @@
 ---
-title: "The Minto Pyramid Principle"
+title: "金字塔原理"
 date: 2023-09-04T23:19:05+08:00
 tags: ["reading"]
 draft: false
 ---
-
-# 金字塔原理
 
 最近老板组织了组内读书会，每两周进行一次。我们最近几期要研读《金字塔原理》，是一本讲述写作和思考逻辑的书。
 
