@@ -6,15 +6,36 @@ theme: "paper-mod"
 params:
   footerMessage: "S❤N"
   defaultTheme: auto
+  ShowReadingTime: true
+  ShowToc: true
+  TocOpen: true
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+
   profileMode:
     enabled: true
     title: "Sa1L" # optional default will be site title
-    subtitle: "This is subtitle"
+    subtitle: "如果没有方向，身在他乡又如何呢"
     buttons:
       - name: Archive
         url: "/archive"
-      - name: Github
-        url: "https://github.com/"
+
   socialIcons: # optional
     - name: "github"
       url: "https://github.com/sa1L-A"
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
