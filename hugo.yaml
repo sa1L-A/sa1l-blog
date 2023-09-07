@@ -1,9 +1,10 @@
 baseURL: "https://sa1l.xyz/"
 title: "Sa1L"
-languageCode: "cn-zh"
+defaultContentLanguage: "zh"
 theme: "paper-mod"
 
 params:
+  author: "sa1L"
   footerMessage: "S❤N"
   defaultTheme: auto
   ShowReadingTime: true
@@ -12,14 +13,17 @@ params:
   ShowBreadCrumbs: true
   ShowPostNavLinks: true
   ShowCodeCopyButtons: true
+  ShowAllPagesInArchive: true
+  ShowRssButtonInSectionTermList: true
+  keywords: ["golang", "reading"]
 
   profileMode:
     enabled: true
     title: "Sa1L" # optional default will be site title
     subtitle: "如果没有方向，身在他乡又如何呢"
     buttons:
-      - name: Archive
-        url: "/archive"
+      - name: 文章
+        url: "/archives"
 
   socialIcons: # optional
     - name: "github"
