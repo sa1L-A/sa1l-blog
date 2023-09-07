@@ -1,5 +1,5 @@
 ---
-title: "How to arrange the project directory structure"
+title: "如何设计golang项目的结构"
 date: 2023-08-27T18:45:09+08:00
 tags: ["golang"]
 ---

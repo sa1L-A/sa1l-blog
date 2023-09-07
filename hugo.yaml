@@ -1,8 +1,46 @@
 baseURL: "https://sa1l.xyz/"
 title: "Sa1L"
+paginate: 5
 defaultContentLanguage: "zh"
 theme: "paper-mod"
-
+enableEmoji: true
+languages:
+  zh:
+    languageName: "Chinese"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: 文章
+          url: archives
+          weight: 5
+        - name: 标签
+          url: tags/
+          weight: 10
+        - name: 搜索
+          url: search/
+          weight: 10
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: Archive
+          url: /en/archives
+          weight: 5
+        - name: Tags
+          url: /en/tags/
+          weight: 10
+        - name: Search
+          url: /en/search/
+          weight: 10
 params:
   author: "sa1L"
   footerMessage: "S❤N"
@@ -16,14 +54,16 @@ params:
   ShowAllPagesInArchive: true
   ShowRssButtonInSectionTermList: true
   keywords: ["golang", "reading"]
-
+  homeInfoParams:
+    Title: Sa1L
+    Content: 如果没有方向，身在他乡又如何呢
   profileMode:
-    enabled: true
+    enabled: false
     title: "Sa1L" # optional default will be site title
     subtitle: "如果没有方向，身在他乡又如何呢"
-    buttons:
-      - name: 文章
-        url: "/archives"
+    # buttons:
+    #   - name: 文章
+    #     url: "/archives"
 
   socialIcons: # optional
     - name: "github"
