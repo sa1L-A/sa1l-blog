@@ -56,7 +56,7 @@ params:
   keywords: ["golang", "reading"]
   homeInfoParams:
     Title: Sa1L
-    Content: 如果没有方向，身在他乡又如何呢
+    Content: 冲吧，向那太阳，向那片海
   profileMode:
     enabled: false
     title: "Sa1L" # optional default will be site title
