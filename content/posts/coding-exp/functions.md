@@ -13,12 +13,12 @@ draft: true
 
    ```js
    const compose = (f, g) => (x) => f(g(x));
-   
+
    const g = (num) => num + 1;
    const f = (num) => num * 2;
-   
+
    const h = compose(f, g);
-   
+
    h(20); // 42
    ```
 
@@ -39,6 +39,3 @@ draft: true
    1. 不可变性
    2. 高阶函数
    3. 避免共享可变状态
-
-4. 
-

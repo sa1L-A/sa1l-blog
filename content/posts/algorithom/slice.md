@@ -2,7 +2,7 @@
 title: "Slice操作"
 date: 2024-01-02T11:29:13+08:00
 tags: ["algorithom"]
-draft: true
+draft: false
 ---
 
 Algo
@@ -73,4 +73,3 @@ func toASC_next_permutation(target []int) bool {
 }
 
 ```
-
